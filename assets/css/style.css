@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #394c5f !important;
+}
+
+.card-header {
+    border-bottom: 2px solid #343a40;
+}
+
+#currentResults, #five-day {
+    border-radius: 8px ;
+}
+
+#forecastCards .card {
+    background-color: #f8f9fa !important;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#forecastCards .card-header {
+    background-color: #6c757d;
+}
+
+#forecastCards .card-body {
+    background-color: #ffffff;
+}
+
+h1, h2, h5 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, #343a40, #495057);
+}
+
+header h1 {
+    font-weight: 700;
+}
+
+#citySearch button {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#citySearch button:hover {
+    background-color: #0056b3;
+}
+
+#recentSearches h5 {
+    font-weight: 600;
+    color: #17212b;
+}
+
+#recentSearches ul {
+    list-style: none;
+    padding: 0;
+}
+
+#recentSearches ul li {
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#recentSearches ul li:hover {
+    background-color: #ced4da;
+}
+
+#currentResults {
+    background-color: #ffffff;
+}
