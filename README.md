@@ -14,6 +14,11 @@ Using this application users can search for cities by name and the weather data 
 2. cd into the project
 3. Run a live server to start inputting cities
 
+## Usage and Demo Photo
+![Demo Photo]('assets\Screenshot_31-7-2024_22242_127.0.0.1.jpeg')
+
+After installation, right click the index.html. Once you have done that, you can click Open with Live Server. The page will load. You can input city names to retrieve their current day and five day weather data. If you search for another city you will see your last search will be a button under the search bar for you to run again if desired.
+
 
 ## License
 
